@@ -16,6 +16,13 @@ springdoc:
   swagger-ui:
     path: /swagger-ui.html
     enabled: true
+  # 分组配置
+  group-configs:
+    - group: "index"
+      paths-to-match: "/api/index/**"
+    - group: "user"
+      paths-to-match: "/api/user/**"
+
 
 
 
