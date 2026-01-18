@@ -23,6 +23,23 @@ springdoc:
     - group: "user"
       paths-to-match: "/api/user/**"
 
+knife4j:
+  # 增强
+  enable: true
+  basic:
+    enable: false
+    username: zzq
+    password: zzq
+  setting:
+    language: zh_cn
+    enable-footer-custom: true
+    footer-custom-content: zzq
+    swagger-model-name: 实体类列表
+    enable-group: true
+    enable-search: true
+
+
+
 
 
 
